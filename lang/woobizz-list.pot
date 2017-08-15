@@ -1,0 +1,46 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-12 19:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/sections/list-functions-section.php:29
+msgid "Welcome to Woobizz!"
+msgstr ""
+
+#: admin/sections/list-functions-section.php:30
+msgid ""
+"Woobizz give you the right tools to create great e-commerce sites with "
+"wordpress and woocommerce"
+msgstr ""
+
+#: admin/sections/list-functions-section.php:31
+msgid "To find more please visit"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woobizz List"
+msgstr ""
+
+#. Description of the plugin
+msgid "Woocommerce List Customiser"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://woobizz.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Woobizz"
+msgstr ""
