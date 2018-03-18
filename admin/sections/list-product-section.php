@@ -1207,7 +1207,7 @@ ul.products li.product .button {
 	width:".$woobizz_productlist_buttonwidthsize.$woobizz_productlist_buttonwidthunits."!important;
 	min-width:".$woobizz_productlist_buttonminwidthsize.$woobizz_productlist_buttonminwidthunits."!important;
 	max-width:".$woobizz_productlist_buttonmaxwidthsize.$woobizz_productlist_buttonmaxwidthunits."!important;
-	font-family:roboto condensed;
+	font-family:inherit;
 }
 /**PRODUCT LIST TITLE */
 ul.products li.product h2 {
