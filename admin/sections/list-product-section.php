@@ -1215,7 +1215,7 @@ ul.products li.product h2 {
 	font-size:".$woobizz_productlist_titlesize."px!important;
 	font-weight:".$woobizz_productlist_titleweight."!important;
     display: ".$woobizz_productlist_titlehide."!important;
-	color:".$woobizz_productlist_titlecolor.";
+	color:".$woobizz_productlist_titlecolor."!important;
 }
 /**PRODUCT LIST DESCRIPTION */
 ul.products li.product p {
