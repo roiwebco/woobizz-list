@@ -1122,7 +1122,7 @@ if ($woobizz_productlist_buttonmaxwidthunits==0){
 ul.products li.product {
 	background:linear-gradient(rgba(".$woobizz_productlist_backgroundfullgradient1."),
 							   rgba(".$woobizz_productlist_backgroundfullgradient2.")),
-								url(".$woobizz_productlist_backgroundimage."!important);
+								url(".$woobizz_productlist_backgroundimage.");
 	background-color:".$woobizz_productlist_backgroundcolor."!important;
 	background-size:".$woobizz_productlist_backgroundsize."!important;
 	background-repeat:".$woobizz_productlist_backgroundrepeat."!important;
