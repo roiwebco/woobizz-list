@@ -659,7 +659,7 @@ ul.products li.product.product-category img {
 	display:".$woobizz_categorylist_thumbsbghide."!important;
 	background:linear-gradient(rgba(".$woobizz_categorylist_thumbsbgfullgradient1."),
 							   rgba(".$woobizz_categorylist_thumbsbgfullgradient2.")),
-								url(".$woobizz_categorylist_thumbsbgimage."!important);
+								url(".$woobizz_categorylist_thumbsbgimage.");
 	background-color:".$woobizz_categorylist_thumbsbgcolor."!important;
 	background-size:".$woobizz_categorylist_thumbsbgsize."!important;
 	background-repeat:".$woobizz_categorylist_thumbsbgrepeat."!important;
@@ -670,7 +670,7 @@ ul.products li.product.product-category img {
 ul.products li.product.product-category{
 	background:linear-gradient(rgba(".$woobizz_categorylist_backgroundfullgradient1."!important),
 							   rgba(".$woobizz_categorylist_backgroundfullgradient2.")),
-								url(".$woobizz_categorylist_backgroundimage."!important);
+								url(".$woobizz_categorylist_backgroundimage.");
 	background-color:".$woobizz_categorylist_backgroundcolor."!important;
 	background-size:".$woobizz_categorylist_backgroundsize."!important;
 	background-repeat:".$woobizz_categorylist_backgroundrepeat."!important;
