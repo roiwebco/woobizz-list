@@ -1143,7 +1143,7 @@ ul.products li.product img {
 	display:".$woobizz_productlist_thumbsbghide."!important;
 	background:linear-gradient(rgba(".$woobizz_productlist_thumbsbgfullgradient1."),
 							   rgba(".$woobizz_productlist_thumbsbgfullgradient2.")),
-								url(".$woobizz_productlist_thumbsbgimage."!important);
+								url(".$woobizz_productlist_thumbsbgimage.");
 	background-color:".$woobizz_productlist_thumbsbgcolor."!important;
 	background-size:".$woobizz_productlist_thumbsbgsize."!important;
 	background-repeat:".$woobizz_productlist_thumbsbgrepeat."!important;
