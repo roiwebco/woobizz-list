@@ -1122,33 +1122,33 @@ if ($woobizz_productlist_buttonmaxwidthunits==0){
 ul.products li.product {
 	background:linear-gradient(rgba(".$woobizz_productlist_backgroundfullgradient1."),
 							   rgba(".$woobizz_productlist_backgroundfullgradient2.")),
-								url(".$woobizz_productlist_backgroundimage.");
-	background-color:".$woobizz_productlist_backgroundcolor.";
-	background-size:".$woobizz_productlist_backgroundsize.";
-	background-repeat:".$woobizz_productlist_backgroundrepeat.";
-	background-position:".$woobizz_productlist_backgroundposition.";
-	box-shadow:".$woobizz_productlist_shadowfull.";
-	border:".$woobizz_productlist_borderfull.";
-	border-radius:".$woobizz_productlist_borderradius."px;
-	margin-top:".$woobizz_productlist_margintopsize.$woobizz_productlist_marginunittop.";
-	margin-bottom:".$woobizz_productlist_marginbottomsize.$woobizz_productlist_marginunitbottom.";
-	padding:".$woobizz_productlist_paddingfull.";
+								url(".$woobizz_productlist_backgroundimage."!important);
+	background-color:".$woobizz_productlist_backgroundcolor."!important;
+	background-size:".$woobizz_productlist_backgroundsize."!important;
+	background-repeat:".$woobizz_productlist_backgroundrepeat."!important;
+	background-position:".$woobizz_productlist_backgroundposition."!important;
+	box-shadow:".$woobizz_productlist_shadowfull."!important;
+	border:".$woobizz_productlist_borderfull."!important;
+	border-radius:".$woobizz_productlist_borderradius."px!important;
+	margin-top:".$woobizz_productlist_margintopsize.$woobizz_productlist_marginunittop."!important;
+	margin-bottom:".$woobizz_productlist_marginbottomsize.$woobizz_productlist_marginunitbottom."!important;
+	padding:".$woobizz_productlist_paddingfull."!important;
 }
 /**Product Thumbs Image*/
 ul.products li.product img {
-	width:".$woobizz_productlist_thumbsbgexpand.";
+	width:".$woobizz_productlist_thumbsbgexpand."!important;
 	box-shadow:".$woobizz_productlist_thumbsbgshadowfull."!important;
 	border:".$woobizz_productlist_thumbsbgborderfull."!important;
-	border-radius:".$woobizz_productlist_thumbsbgborderradius."%;
+	border-radius:".$woobizz_productlist_thumbsbgborderradius."%!important;
 	display:".$woobizz_productlist_thumbsbghide."!important;
 	background:linear-gradient(rgba(".$woobizz_productlist_thumbsbgfullgradient1."),
 							   rgba(".$woobizz_productlist_thumbsbgfullgradient2.")),
-								url(".$woobizz_productlist_thumbsbgimage.");
-	background-color:".$woobizz_productlist_thumbsbgcolor.";
-	background-size:".$woobizz_productlist_thumbsbgsize.";
-	background-repeat:".$woobizz_productlist_thumbsbgrepeat.";
-	background-position:".$woobizz_productlist_thumbsbgposition.";
-	padding:".$woobizz_productlist_thumbsbgpadding."%;
+								url(".$woobizz_productlist_thumbsbgimage."!important);
+	background-color:".$woobizz_productlist_thumbsbgcolor."!important;
+	background-size:".$woobizz_productlist_thumbsbgsize."!important;
+	background-repeat:".$woobizz_productlist_thumbsbgrepeat."!important;
+	background-position:".$woobizz_productlist_thumbsbgposition."!important;
+	padding:".$woobizz_productlist_thumbsbgpadding."%!important;
 }
 ul.products li.product h3 {
 	font-size: 1.1em;
@@ -1199,7 +1199,7 @@ a.added_to_cart.wc-forward{
 }
 /**PRODUCT LIST BUTTONS */
 ul.products li.product .button {
-	box-shadow:".$woobizz_productlist_buttonshadowfull.";
+	box-shadow:".$woobizz_productlist_buttonshadowfull."!important;
 	border:".$woobizz_productlist_buttonborderfull."!important;
 	border-radius:".$woobizz_productlist_buttonborderradius."px;
 	margin:".$woobizz_productlist_buttonmarginfull."!important;
@@ -1211,7 +1211,7 @@ ul.products li.product .button {
 }
 /**PRODUCT LIST TITLE */
 ul.products li.product h2 {
-    padding:".$woobizz_productlist_titlepaddingfull.";
+    padding:".$woobizz_productlist_titlepaddingfull."!important;
 	font-size:".$woobizz_productlist_titlesize."px!important;
 	font-weight:".$woobizz_productlist_titleweight."!important;
     display: ".$woobizz_productlist_titlehide."!important;
@@ -1219,40 +1219,40 @@ ul.products li.product h2 {
 }
 /**PRODUCT LIST DESCRIPTION */
 ul.products li.product p {
-    color:".$woobizz_productlist_descriptioncolor.";
-	font-weight:".$woobizz_productlist_descriptionweight.";
-	font-size:".$woobizz_productlist_descriptionsize."px;
+    color:".$woobizz_productlist_descriptioncolor."!important;
+	font-weight:".$woobizz_productlist_descriptionweight."!important;
+	font-size:".$woobizz_productlist_descriptionsize."px!important;
 	font-family:arial;
 	display:".$woobizz_productlist_descriptionhide."!important;
 	margin:0;
 }
 .woobizz_productlist_excerpt{
-	padding:".$woobizz_productlist_descriptionpaddingfull.";
+	padding:".$woobizz_productlist_descriptionpaddingfull."!important;
 	display:block;
 }
 ul.products li.product .onsale {
 	background:".$woobizz_productlist_onsalebackgroundcolor."!important;
 	box-shadow:".$woobizz_productlist_onsaleshadowfull."!important;
 	border:".$woobizz_productlist_onsaleborderfull."!important;
-	border-radius:".$woobizz_productlist_onsaleborderradius."%;
-	color:".$woobizz_productlist_onsaletextcolor.";
+	border-radius:".$woobizz_productlist_onsaleborderradius."%!important;
+	color:".$woobizz_productlist_onsaletextcolor."!important;
 	display:".$woobizz_productlist_onsalehide."!important;
 }
 ul.products li.product .price del {
     opacity: 1;
-	font-size:".$woobizz_productlist_regularpricesize."px;
-	font-weight:".$woobizz_productlist_regularpriceweight.";
-    color:".$woobizz_productlist_regularpricecolor.";
+	font-size:".$woobizz_productlist_regularpricesize."px!important;
+	font-weight:".$woobizz_productlist_regularpriceweight."!important;
+    color:".$woobizz_productlist_regularpricecolor."!important;
 	display: ".$woobizz_productlist_regularpricehide."!important;
 }
 ul.products li.product .price ins {
-    font-size:".$woobizz_productlist_salepricesize."px;
-	font-weight:".$woobizz_productlist_salepriceweight.";
-    color:".$woobizz_productlist_salepricecolor.";
+    font-size:".$woobizz_productlist_salepricesize."px!important;
+	font-weight:".$woobizz_productlist_salepriceweight."!important;
+    color:".$woobizz_productlist_salepricecolor."!important;
 	display: ".$woobizz_productlist_salepricehide."!important;
 }
 ul.products li.product .price {
-   //display: ".$woobizz_productlist_regularpricehideall."!important;
+   display: ".$woobizz_productlist_regularpricehideall."!important;
 }
 ul.products li.product .star-rating {
     display: ".$woobizz_productlist_hiderating."!important;

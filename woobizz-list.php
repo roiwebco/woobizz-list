@@ -2,10 +2,10 @@
 /**
 * Plugin Name: Woobizz List 
 * Plugin URI: https://woobizz.com
-* Description: Woocommerce List Customiser
-* Author: Woobizz
-* Author URI: https://woobizz.com
-* Version: 1.0.3
+* Description: WooCommerce Storefront List Customiser
+* Author: ROIWEB.CO
+* Author URI: https://roiweb.co
+* Version: 1.0.4
 * Text Domain: woobizz-list
 * Domain Path: /lang/
 */

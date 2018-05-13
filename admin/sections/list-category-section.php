@@ -652,41 +652,41 @@ $woobizz_categorylist_thumbsbgfullgradient2=$trasnform_woobizz_categorylist_thum
 <style>
 /**Product Category Image*/
 ul.products li.product.product-category img {
-    width:".$woobizz_categorylist_thumbsbgexpand.";
+    width:".$woobizz_categorylist_thumbsbgexpand."!important;
 	box-shadow:".$woobizz_categorylist_thumbsbgshadowfull."!important;
 	border:".$woobizz_categorylist_thumbsbgborderfull."!important;
-	border-radius:".$woobizz_categorylist_thumbsbgborderradius."%;
+	border-radius:".$woobizz_categorylist_thumbsbgborderradius."%!important;
 	display:".$woobizz_categorylist_thumbsbghide."!important;
 	background:linear-gradient(rgba(".$woobizz_categorylist_thumbsbgfullgradient1."),
 							   rgba(".$woobizz_categorylist_thumbsbgfullgradient2.")),
-								url(".$woobizz_categorylist_thumbsbgimage.");
-	background-color:".$woobizz_categorylist_thumbsbgcolor.";
-	background-size:".$woobizz_categorylist_thumbsbgsize.";
-	background-repeat:".$woobizz_categorylist_thumbsbgrepeat.";
-	background-position:".$woobizz_categorylist_thumbsbgposition.";
-	padding:".$woobizz_categorylist_thumbsbgpadding."%;
+								url(".$woobizz_categorylist_thumbsbgimage."!important);
+	background-color:".$woobizz_categorylist_thumbsbgcolor."!important;
+	background-size:".$woobizz_categorylist_thumbsbgsize."!important;
+	background-repeat:".$woobizz_categorylist_thumbsbgrepeat."!important;
+	background-position:".$woobizz_categorylist_thumbsbgposition."!important;
+	padding:".$woobizz_categorylist_thumbsbgpadding."%!important;
 }
 /**Product Category List*/
 ul.products li.product.product-category{
-	background:linear-gradient(rgba(".$woobizz_categorylist_backgroundfullgradient1."),
+	background:linear-gradient(rgba(".$woobizz_categorylist_backgroundfullgradient1."!important),
 							   rgba(".$woobizz_categorylist_backgroundfullgradient2.")),
-								url(".$woobizz_categorylist_backgroundimage.");
-	background-color:".$woobizz_categorylist_backgroundcolor.";
-	background-size:".$woobizz_categorylist_backgroundsize.";
-	background-repeat:".$woobizz_categorylist_backgroundrepeat.";
-	background-position:".$woobizz_categorylist_backgroundposition.";
-	box-shadow:".$woobizz_categorylist_shadowfull.";
-	border:".$woobizz_categorylist_borderfull.";
-	border-radius:".$woobizz_categorylist_borderradius."px;
-	margin-top:".$woobizz_categorylist_margintopsize.$woobizz_categorylist_marginunittop.";
-	margin-bottom:".$woobizz_categorylist_marginbottomsize.$woobizz_categorylist_marginunitbottom.";
-	padding:".$woobizz_categorylist_paddingfull.";
+								url(".$woobizz_categorylist_backgroundimage."!important);
+	background-color:".$woobizz_categorylist_backgroundcolor."!important;
+	background-size:".$woobizz_categorylist_backgroundsize."!important;
+	background-repeat:".$woobizz_categorylist_backgroundrepeat."!important;
+	background-position:".$woobizz_categorylist_backgroundposition."!important;
+	box-shadow:".$woobizz_categorylist_shadowfull."!important;
+	border:".$woobizz_categorylist_borderfull."!important;
+	border-radius:".$woobizz_categorylist_borderradius."px!important;
+	margin-top:".$woobizz_categorylist_margintopsize.$woobizz_categorylist_marginunittop."!important;
+	margin-bottom:".$woobizz_categorylist_marginbottomsize.$woobizz_categorylist_marginunitbottom."!important;
+	padding:".$woobizz_categorylist_paddingfull."!important;
 }
 .product-category mark.count{
 	font-size:".$woobizz_categorylist_countersize."px!important;
 	font-weight:".$woobizz_categorylist_counterweight."!important;
     display: ".$woobizz_categorylist_counterhide."!important;
-	color:".$woobizz_categorylist_countercolor.";
+	color:".$woobizz_categorylist_countercolor."!important;
 }
 ul.products li.product h3 {
 	font-size: 1.1em;
@@ -711,22 +711,22 @@ ul.products li.product h3 {
 	}
 }
 ul.products li.product.product-category h2 {
-    padding:".$woobizz_categorylist_titlepaddingfull.";
+    padding:".$woobizz_categorylist_titlepaddingfull."!important;
 	font-size:".$woobizz_categorylist_titlesize."px!important;
 	font-weight:".$woobizz_categorylist_titleweight."!important;
     display: ".$woobizz_categorylist_titlehide."!important;
-	color:".$woobizz_categorylist_titlecolor.";
+	color:".$woobizz_categorylist_titlecolor."!important;
 }
 /**CATEGORY LIST DESCRIPTION */
 ul.products li.product p {
-    color:".$woobizz_categorylist_descriptioncolor.";
+    color:".$woobizz_categorylist_descriptioncolor."!important;
 	font-weight:".$woobizz_categorylist_descriptionweight."!important;
-	font-size:".$woobizz_categorylist_descriptionsize."px;
+	font-size:".$woobizz_categorylist_descriptionsize."px!important;
 	font-family:arial;
 	display:".$woobizz_categorylist_descriptionhide."!important;
 }
 .woobizz_categorylist_excerpt{
-	padding:".$woobizz_categorylist_descriptionpaddingfull.";
+	padding:".$woobizz_categorylist_descriptionpaddingfull."!important;
 	display:block;
 }
 .woobizz_categorylist_description{
